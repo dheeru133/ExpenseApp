@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=abc, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  	<link href="webjars/bootstrap/4.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  	<link href="webjars/font-awesome/5.0.10/web-fonts-with-css/css/fontawesome.min.css" rel="stylesheet">
+     <title>ExpenseApp</title>
+</head>
+
+<body>
+    <!-- Nanbar -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark p-0">
+        <div class="container">
+            <img class="rounded-circle bg-info" style="height:60px; width:60px" src="images/Expense.png">
+            <a href="home" class="navbar-brand ml-1 btn btn-sm btn-outline-info ">
+                ExpenseApp 
+            </a>
+            <!-- Toggle Collapse Navbar -->
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Collapse Div for Toggler -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+            </div>
+        </div>
+    </nav>
+    <!-- Header -->
+    <header id="main-header" class="py-2 bg-info text-white mb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>
+                        Expense App Login
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- HOME SECTION -->
+    <header id="home-sectionLogin">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 ">
+                    <h3 class="display-6 text-info">
+                        ExpenseApp Dahsboard
+                    </h3>
+                    <div class="d-flex flex-row">
+                        <div class="p-4 align-self-start">
+                            <a href="#" class="rounded-circle btn btn-sm btn-outline-primary"><i class="fa fa-check-circle bg-primary"></i></a>
+                        </div>
+                        <div class="p-4 align-self-end text-primary">
+                           ExpenseApp dashboard is build on Bootstrap4, SpringBoot2.0 with Thymleaf template, HibernateJPA. It shows all the expenses for the particular Login User
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <div class="p-4 align-self-start">
+                            <a href="#" class="rounded-circle btn btn-sm btn-outline-primary"><i class="fa fa-check-circle bg-primary"></i></a>
+                        </div>
+                        <div class="p-4 align-self-end text-primary">
+                          ExpenseApp dashboard is build on Bootstrap4, SpringBoot2.0 with Thymleaf template, HibernateJPA. It shows all the expenses for the particular Login User
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <div class="p-4 align-self-start">
+                            <a href="#" class="rounded-circle btn btn-sm btn-outline-primary"><i class="fa fa-check-circle bg-primary"></i></a>
+                        </div>
+                        <div class="p-4 align-self-end text-primary">
+                           ExpenseApp dashboard is build on Bootstrap4, SpringBoot2.0 with Thymleaf template, HibernateJPA. It shows all the expenses for the particular Login User
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-header bg-info">
+                            <h6>Account Login</h6>
+                        </div>
+                        <div class="card-body">
+                            <form action="home">
+                                <div class="form-group">
+                                    <label for="email"><h6>UserID</h6></label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon">
+                                                    
+                                                </span>
+                                        <input type="text" class="form-control" placeholder="UserID">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="password"><h6>Password</h6></label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon">
+                                                  
+                                                </span>
+                                        <input type="password" class="form-control" placeholder="Password">
+                                    </div>
+                                </div>
+                                <input type="submit" class="btn btn-primary btn-block" value="Login">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Carousel Slider -->
+    <section id="imageslider">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-md-4 ml-5">
+                    <!-- SLIDER WITH INDICATORS -->
+                    <div id="slider3" class="carousel slide mb-5" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li class="active" data-target="#slider3" data-slide-to="0"></li>
+                            <li data-target="#slider3" data-slide-to="1"></li>
+                            <li data-target="#slider3" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner border-info" role="listbox">
+                            <div class="carousel-item active">
+                                <img class="d-block img-fluid" style="height:17rem;width:60rem" src="images/One.png" alt="First Slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block img-fluid" style="height:17rem;width:60rem" src="images/Two.png" alt="Second Slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block img-fluid" style="height:17rem;width:60rem" src="images/Dec.png" alt="Third Slide">
+                            </div>
+                        </div>
+                        <a href="#slider3" class="carousel-control-prev" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+                        <a href="#slider3" class="carousel-control-next" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer id="main-footer" class="bg-dark text-white mt-5">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-md-3 align-self-start pt-3">
+                    <h6 class="text-info">Copyright &copy; MyApp</h6>
+                    <blockquote class="blockquote">
+                         <p>ExpenseApp Dahsboard Implementation within Tomcat server 7.0.</p>
+                        <footer class="blockquote-footer">Expense App Dahsboard <i class="font-italic">MyApp</i>
+                        </footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-6 pt-3">
+                    <div class=" media align-top">
+                        <img class="mr-3 align-self-start rounded-circle" style="height:100px;width:100px" src="images/Expense.png">
+                        <div class="media-body">
+                            <h5>ExpenseApp Dashboard</h5>
+                            <p>ExpenseApp dashboard is build on Bootstrap4, SpringBoot2.0 with Thymleaf template, HibernateJPA. It shows all the expenses for the particular Login User</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 align-self-start pt-3">
+                    <button class="btn btn-outline-info float-right" data-toggle="modal" data-target="#contactModal">Contact Us</button>
+                    <a href="http://facebook.com" class="btn btn-outline-primary border-primary btn-sm rounded-circle"><i class="fa fa-facebook"></i></a>
+                    <a href="http://twitter.com" class="btn btn-outline-info border-info btn-sm rounded-circle"><i class="fa fa-twitter"></i></a>
+                    <a href="http://instagram.com" class="btn btn-outline-danger border-danger btn-sm rounded-circle"><i class="fa fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- MODALS ############################################################################ -->
+    <!-- PostModals -->
+    <!-- CONTACT MODAL -->
+    <div class="modal fade text-dark" id="contactModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-info text-white">
+                    <h5 class="modal-title" id="contactModalTitle">Contact Us</h5>
+                    <button class="close" data-dismiss="modal"><span>&times;</span></button>
+                </div>
+                <div class="modal-body bg-light">
+                 
+					     <form
+								th:action="@{/home}"
+								method="post"
+							>
+								<div class="form-group">
+									<label>Name</label> <input
+										type="text"
+										 class="form-control" 
+										 placeholder="Name"
+									/>
+								</div>
+					
+								<div class="form-group">
+									<label>Email</label> <input
+										type="text"
+										class="form-control"
+										 placeholder="Email"
+									/>
+								</div>
+								<div class="form-group">
+									<label>Password</label> <input
+										type="password"
+									/>
+								</div>
+								 <div class="modal-footer">
+                    <button class="btn btn-primary btn-block">Submit</button>
+                </div>
+			</form>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+   <script src="webjars/jquery/3.3.1-1/jquery.min.js"></script>
+    <script src="webjars/bootstrap/4.1.1/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
